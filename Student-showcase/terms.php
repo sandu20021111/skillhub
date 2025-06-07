@@ -1,0 +1,1 @@
+<?php include 'includes/header.php'; ?>Terms and Conditions<?php include 'includes/footer.php'; ?>
