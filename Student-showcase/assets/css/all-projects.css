@@ -1,0 +1,137 @@
+/* General page styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #081b29; /* Dark background */
+    margin: 0;
+    padding: 20px;
+    color: #e0e0e0; /* Light text color for contrast */
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    background: #1a2c3a; /* Slightly lighter dark background for the container */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 25px #0ef; /* Blue shadow */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0ef; /* Blue accent for headings */
+}
+
+/* Search form */
+.search-form {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.search-form input[type="text"] {
+    width: 320px;
+    max-width: 90%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #0ef; /* Blue border for input */
+    background-color: #081b29; /* Dark background for input */
+    color: #fff; /* White text for input */
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.search-form input[type="text"]:focus {
+    border-color: #0056b3; /* Darker blue on focus */
+    outline: none;
+}
+
+.search-form button {
+    padding: 10px 22px;
+    font-size: 16px;
+    margin-left: 8px;
+    border: none;
+    background-color: #0ef; /* Blue button background */
+    color: #081b29; /* Dark text on button */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    color: #fff; /* White text on hover */
+}
+
+.clear-search {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 14px;
+    color: #a0a0a0; /* Lighter grey for clear search */
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.clear-search:hover {
+    color: #0ef; /* Blue on hover */
+}
+
+/* Project cards grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+/* Each card */
+.card {
+    background: #1a2c3a; /* Dark background for cards */
+    border: 1px solid #0ef; /* Blue border for cards */
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Slightly darker shadow */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 0 25px rgba(0, 238, 255, 0.5); /* Enhanced blue shadow on hover */
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #0ef; /* Blue accent for card headings */
+    font-weight: 700;
+}
+
+.card p {
+    flex-grow: 1;
+    margin: 10px 0;
+    color: #e0e0e0; /* Lighter text for card paragraphs */
+}
+
+.creator {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #a0a0a0; /* Lighter grey for creator name */
+    margin-bottom: 15px;
+}
+
+.btn {
+    align-self: flex-start;
+    padding: 8px 18px;
+    background: #0ef; /* Blue button background */
+    color: #081b29; /* Dark text on button */
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    color: #fff; /* White text on hover */
+}
