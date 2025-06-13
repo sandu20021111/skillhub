@@ -33,6 +33,7 @@ $projects = $stmt->get_result();
 </head>
 <body>
 <div class="container">
+    <button class="close-btn" onclick="goToHome()">×</button>
     <h2>My Projects</h2>
     <a href="add-edit-project.php" class="btn add">+ Add New Project</a><br>
 
@@ -66,6 +67,13 @@ $projects = $stmt->get_result();
         <a id="popup-link" href="#" target="_blank">View GitHub/URL</a>
     </div>
 </div>
+
+<script>
+        function goToHome() {
+            window.location.href = "/student-showcase/profile/dashboard.php"; // Change path if your homepage is different
+        }
+    </script>
+
 
 <script src="/assets/js/script.js"></script>
 </body>

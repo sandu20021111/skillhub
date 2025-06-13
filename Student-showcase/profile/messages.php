@@ -27,6 +27,7 @@ while ($row = $result->fetch_assoc()) {
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <button class="close-btn" onclick="goToHome()">×</button>
   <meta charset="UTF-8">
   <title>Your Messages</title>
   <link rel="stylesheet" href="../assets/css/messages.css">
@@ -58,5 +59,11 @@ while ($row = $result->fetch_assoc()) {
       <p>No messages yet.</p>
     <?php endif; ?>
   </div>
+  <script>
+        function goToHome() {
+            window.location.href = "/student-showcase/profile/dashboard.php"; // Change path if your homepage is different
+        }
+    </script>
+
 </body>
 </html>

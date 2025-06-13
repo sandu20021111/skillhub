@@ -84,3 +84,18 @@ h1 {
   background-color: #0056b3;
   color: #fff;
 }
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    font-size: 24px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    z-index: 1000;
+}
