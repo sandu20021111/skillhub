@@ -59,7 +59,7 @@
     .contactInfo .Icon {
       min-width: 60px;
       height: 60px;
-      background: repeating-conic-gradient(from 27.5deg, #01dbc2 0%, #01dbc2 10%, transparent 10%, transparent 50%);
+      background: repeating-conic-gradient(from 27.5deg, #0ef 0%, #0ef 10%, transparent 10%, transparent 50%);
       position: relative;
       display: flex;
       justify-content: center;
@@ -70,7 +70,7 @@
       content: '';
       position: absolute;
       inset: 0;
-      background: repeating-conic-gradient(from 117.5deg, #01dbc2 0%, #01dbc2 10%, transparent 10%, transparent 50%);
+      background: repeating-conic-gradient(from 117.5deg, #0ef 0%, #0ef 10%, transparent 10%, transparent 50%);
     }
 
     .contactInfo .Icon::after {
@@ -83,7 +83,7 @@
     .contactInfo .Icon b {
       position: absolute;
       inset: 8px;
-      background: #01dbc2;
+      background: #0ef;
       z-index: 2;
     }
 
@@ -100,7 +100,7 @@
     }
 
     .contactInfo .text h3 {
-      color: #01dbc2;
+      color: #0ef;
       font-weight: 500;
       margin-bottom: 5px;
     }
@@ -109,7 +109,7 @@
       color: #fff;
       margin-top: 40px;
       font-weight: 500;
-      border-left: 5px solid #01dbc2;
+      border-left: 5px solid #0ef;
       padding-left: 10px;
     }
 
@@ -128,13 +128,13 @@
     }
 
     .sci li a:hover {
-      color: #01dbc2;
-      filter: drop-shadow(0 0 5px #01dbc2);
+      color: #0ef;
+      filter: drop-shadow(0 0 5px #0ef);
     }
 
     .contactForm {
       position: relative;
-      background: repeating-conic-gradient(from var(--a), #01dbc2 0%, #01dbc2 10%, transparent 10%, transparent 50%);
+      background: repeating-conic-gradient(from var(--a), #0ef 0%, #0ef 10%, transparent 10%, transparent 50%);
       animation: animate 6s linear infinite;
       padding: 40px;
       border-radius: 8px;
@@ -144,7 +144,7 @@
       content: '';
       position: absolute;
       inset: 0;
-      background: repeating-conic-gradient(from var(--a), #01dbc2 0%, #01dbc2 10%, transparent 10%, transparent 50%);
+      background: repeating-conic-gradient(from var(--a), #0ef 0%, #0ef 10%, transparent 10%, transparent 50%);
       animation: animate 6s linear infinite;
       animation-delay: -1.5s;
       z-index: 1;
@@ -192,7 +192,7 @@
       width: 100%;
       background: transparent;
       border: none;
-      border-bottom: 2px solid #01dbc2;
+      border-bottom: 2px solid #0ef;
       color: #fff;
       font-size: 1.1em;
       padding: 10px 5px;
@@ -216,11 +216,11 @@
     .inputBox textarea:valid ~ span {
       transform: translateY(-20px);
       font-size: 0.9em;
-      color: #01dbc2;
+      color: #0ef;
     }
 
     .inputBox input[type="submit"] {
-      background: #01dbc2;
+      background: #0ef;
       border: none;
       color: #222;
       padding: 10px;
@@ -231,7 +231,7 @@
     }
 
     .inputBox input[type="submit"]:hover {
-      background: #00bfa5;
+      background: #0ef;
     }
 
     /* Responsive */
