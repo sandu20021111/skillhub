@@ -6,7 +6,7 @@
     <title>Header</title>
 
     <!-- CSS Files -->
-    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>

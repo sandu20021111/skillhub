@@ -68,13 +68,13 @@
                    url="https://prod.spline.design/2ksZhN5snA8Ci1mB/scene.splinecode">
     </spline-viewer>
 
+     <?php include 'includes/footer.php'; ?>
     <!-- JS Scripts -->
     <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.2/build/spline-viewer.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
-
 
 </body>
 </html>
