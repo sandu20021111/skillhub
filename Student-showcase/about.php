@@ -36,10 +36,10 @@
                 <h3>Hansani Madurangi</h3>
                 <h4>Undergraduate at CINEC</h4>
                 <div class="icon">
-                    <a href="https://www.linkedin.com/in/hansani" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
-                    <a href="https://www.instagram.com/hansani" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
-                    <a href="https://www.facebook.com/hansani" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
-                    <a href="https://github.com/your-hansanimadurangi" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                    <a href="https://www.linkedin.com/in/hansani-madurangi-a2a176335?lipi" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href="https://www.instagram.com/invites/contact/?igsh=1kwbc3ptx64dw&utm_content=o6i9x7j" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="https://www.facebook.com/share/1AWLTtaMP2/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="https://github.com/Hansani2002-ab" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
                 </div>
             </div>
 
@@ -49,10 +49,10 @@
                 <h3>Saduni Vihara</h3>
                 <h4>Undergraduate at CINEC</h4>
                 <div class="icon">
-                    <a href="https://www.linkedin.com/in/Vihara" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
-                    <a href="https://www.instagram.com/Vihara" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
-                    <a href="https://www.facebook.com/Vihara" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
-                    <a href="https://github.com/Vihara" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                    <a href="https://www.linkedin.com/in/sanduni-vihara-56990528b" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href="https://www.instagram.com/sandu_vihara2002?igsh=aXB5ODY5bjhqdDV4" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="https://www.facebook.com/share/8jkb8eqGecnLvbQX/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="https://github.com/sandu20021111" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
                 </div>
             </div>
 
@@ -62,10 +62,10 @@
                 <h3>Nethma Charuni</h3>
                 <h4>Undergraduate at CINEC</h4>
                 <div class="icon">
-                    <a href="https://www.linkedin.com/in/Nethma" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
-                    <a href="https://www.instagram.com/Nethma" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
-                    <a href="https://www.facebook.com/Nethma" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
-                    <a href="https://github.com/Nethma" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                    <a href="https://www.linkedin.com/in/charuni-samarakoon-3a2b67297" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href="https://www.instagram.com/charu_samarakoon_?igsh=MTJ0NTRtbDF6M2w5ZQ%3D%3D&utm_source=qr" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="https://www.facebook.com/charuni.samarakoon.3?mibextid=ZbWKwL" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="https://github.com/NethmaCharuni" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
                 </div>
             </div>
 
@@ -75,10 +75,10 @@
                 <h3>Malindi Ruprabha</h3>
                 <h4>Undergraduate at CINEC</h4>
                 <div class="icon">
-                    <a href="https://www.linkedin.com/in/Malindi" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href="https://www.linkedin.com/in/malindi-ruprabha-4604b8298/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
                     <a href="https://www.instagram.com/Malindi" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
                     <a href="https://www.facebook.com/Malindi" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
-                    <a href="https://github.com/Malindi" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                    <a href="https://github.com/malindiruprabha" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
                 </div>
             </div>
 
@@ -88,10 +88,10 @@
                 <h3>Rashan Chanuka</h3>
                 <h4>Undergraduate at CINEC</h4>
                 <div class="icon">
-                    <a href="https://www.linkedin.com/in/Rashan" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
-                    <a href="https://www.instagram.com/Rashan" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
-                    <a href="https://www.facebook.com/Rashan" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
-                    <a href="https://github.com/Rashan" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                    <a href="https://www.linkedin.com/in/rashan-chanuka-474238306" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href="https://www.instagram.com/chanuka.rashan?igsh=MWtkY25nNzZ1Ynd0aw==" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="https://www.facebook.com/share/16X31CJphS/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="https://github.com/rashanchanuka" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
                 </div>
             </div>
 
