@@ -1,0 +1,169 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #081b29;
+    padding: 40px;
+    color: #fff;
+}
+
+/* Container */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background: #1a2c3a;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 25px #0ef;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    color: #0ef;
+    margin-bottom: 20px;
+}
+
+/* Project Grid */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+}
+
+/* Project Card */
+.project-card {
+    background: #112433;
+    padding: 18px;
+    border-radius: 10px;
+    border: 1px solid #0ef;
+    box-shadow: 0 2px 8px rgba(0, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 255, 255, 0.2);
+}
+
+.project-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #0ef;
+}
+
+.project-card p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* Action Buttons */
+.actions {
+    margin-top: 12px;
+}
+
+.btn {
+    padding: 7px 14px;
+    margin: 4px 6px 0 0;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+.btn.add {
+    background: #20c997;
+}
+
+.btn.edit {
+    background: #0d6efd;
+}
+
+.btn.delete {
+    background: #e55353;
+}
+
+.btn.back {
+    background: #6c757d;
+}
+
+.btn:hover {
+    filter: brightness(1.1);
+}
+
+/* Popup Overlay */
+.popup {
+    position: fixed;
+    top: 0; left: 0;
+    right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+/* Popup Box */
+.popup-content {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    width: 500px;
+    max-width: 90%;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    position: relative;
+    animation: popupSlide 0.4s ease;
+}
+
+.popup-content .close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #1f2d3d;
+}
+
+/* Image Preview */
+#popup-image img {
+    max-width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes popupSlide {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    font-size: 24px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    z-index: 1000;
+}
