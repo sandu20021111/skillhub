@@ -76,7 +76,7 @@ if ($result && $result->num_rows > 0) {
   </div>
     <script>
         function goToHome() {
-            window.location.href = "/student-showcase/index.php"; // Change path if your homepage is different
+            window.location.href = "/student-showcase/index.php";
         }
     </script>
 </body>

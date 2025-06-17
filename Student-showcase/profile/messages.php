@@ -9,7 +9,6 @@ if (!isset($_SESSION['user_id'])) {
 
 $user_id = $_SESSION['user_id'];
 
-// Fetch messages sent to the user
 $stmt = $conn->prepare("SELECT m.id, m.message, m.reply, m.created_at, u.name AS sender_name 
                         FROM messages m 
                         JOIN users u ON m.sender_id = u.id 
@@ -61,7 +60,7 @@ while ($row = $result->fetch_assoc()) {
   </div>
   <script>
         function goToHome() {
-            window.location.href = "/student-showcase/profile/dashboard.php"; // Change path if your homepage is different
+            window.location.href = "/student-showcase/profile/dashboard.php"; 
         }
     </script>
 

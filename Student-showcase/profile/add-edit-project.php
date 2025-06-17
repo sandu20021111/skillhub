@@ -11,7 +11,6 @@ $title = $description = $category = $github_url = "";
 $update = false;
 $image_path = "";
 
-// Edit mode: Load project data
 if (isset($_GET['id'])) {
     $id = intval($_GET['id']);
     $stmt = $conn->prepare("SELECT * FROM projects WHERE id = ? AND user_id = ?");
@@ -32,7 +31,6 @@ if (isset($_GET['id'])) {
     }
 }
 
-// Handle form submit (Add or Update)
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $title = trim($_POST['title']);
     $description = trim($_POST['description']);
@@ -40,7 +38,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $github_url = trim($_POST['github_url']);
     $new_image_path = $image_path;
 
-    // Handle file upload
     if (!empty($_FILES['image']['name'])) {
         $uploadDir = '/uploads/';
         $uploadPath = $_SERVER['DOCUMENT_ROOT'] . $uploadDir;

@@ -1,7 +1,6 @@
 <?php
 session_start();
 if (!isset($_SESSION['user_id'])) {
-    // Redirect to login page, NOT dashboard
     header("Location: /profile/dashboard.php");
     exit;
 }
@@ -45,7 +44,7 @@ $user = $stmt->get_result()->fetch_assoc();
 
     <script>
         function goToHome() {
-            window.location.href = "/student-showcase/index.php"; // Change path if your homepage is different
+            window.location.href = "/student-showcase/index.php"; 
         }
     </script>
 

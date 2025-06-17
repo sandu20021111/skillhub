@@ -12,8 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = trim($_POST['name']);
     $email = trim($_POST['email']);
     $bio = trim($_POST['bio']);
-    
-    // Handle profile image
+
     if (!empty($_FILES['profile_pic']['name'])) {
         $img_name = basename($_FILES['profile_pic']['name']);
         $target = "../uploads/profile/" . $img_name;
@@ -32,7 +31,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     exit;
 }
 
-// Fetch current user data
 $stmt = $conn->prepare("SELECT name, email, bio, profile_pic FROM users WHERE id = ?");
 $stmt->bind_param("i", $user_id);
 $stmt->execute();

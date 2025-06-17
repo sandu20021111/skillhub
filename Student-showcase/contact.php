@@ -39,6 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="content">
       <h2>Contact Us</h2>
       <p>Any question or remark? Just write us a message!</p>
+      <br>
       <?php if (!empty($success)): ?>
         <p style="color: #0ef; font-weight: bold;"><?php echo $success; ?></p>
       <?php elseif (!empty($error)): ?>

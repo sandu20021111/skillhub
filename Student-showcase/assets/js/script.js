@@ -1,8 +1,7 @@
 console.log('Project Showcase Loaded');
-// You can use this for future dashboard interactivity or enhancements
+
 console.log("Dashboard loaded successfully.");
 
-// You can use this for future my-projects interactivity or enhancements
 function showPopup(project) {
     document.getElementById('popup-title').textContent = project.title;
     document.getElementById('popup-desc').textContent = project.description;
@@ -23,7 +22,6 @@ function closePopup() {
     document.getElementById('popup').style.display = 'none';
 }
 
-//search projects 
 function filterProjects() {
   const input = document.getElementById('searchInput');
   const filter = input.value.toLowerCase();
@@ -44,7 +42,6 @@ function filterProjects() {
 
 
 //like
-
 function likeProject(projectId) {
   fetch('like.php', {
     method: 'POST',
@@ -81,12 +78,10 @@ const openContactBtn = document.getElementById('openContactBtn');
       });
     }
 
-// JS placeholder (optional future features like filtering, pagination, etc.)
-
 document.addEventListener('DOMContentLoaded', () => {
   console.log("All Projects page loaded.");
 
-  // Example: Add filtering, animations, or dynamic content here later
+  
 });
 
 //product details
@@ -101,13 +96,12 @@ document.addEventListener('DOMContentLoaded', () => {
     form.addEventListener('submit', () => {
       setTimeout(() => {
         form.reset();
-      }, 500); // wait for submission
+      }, 500); 
     });
   });
 });
 
 
-//CREATER CONTACT
 document.addEventListener("DOMContentLoaded", () => {
   const openBtn = document.getElementById("openContactBtn");
   const modal = document.getElementById("contactModal");

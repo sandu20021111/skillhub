@@ -8,7 +8,6 @@ if (!isset($_GET['id']) || !is_numeric($_GET['id'])) {
 
 $project_id = intval($_GET['id']);
 
-// Fetch project details including github_url and file_path
 $stmt = $conn->prepare("SELECT p.title, p.description, u.name, u.email, p.github_url, p.file_path 
                         FROM projects p 
                         JOIN users u ON p.user_id = u.id 
@@ -23,7 +22,6 @@ if ($result->num_rows === 0) {
 
 $project = $result->fetch_assoc();
 
-// Fetch comments
 $comments = [];
 $commentStmt = $conn->prepare("SELECT c.comment, c.created_at, u.name 
                                FROM comments c 
@@ -38,14 +36,12 @@ while ($row = $commentResult->fetch_assoc()) {
     $comments[] = $row;
 }
 
-// Fetch like count
 $likeStmt = $conn->prepare("SELECT COUNT(*) AS total_likes FROM likes WHERE project_id = ?");
 $likeStmt->bind_param("i", $project_id);
 $likeStmt->execute();
 $likeResult = $likeStmt->get_result();
 $likeCount = $likeResult->fetch_assoc()['total_likes'] ?? 0;
 
-// Count comments
 $commentCount = count($comments);
 ?>
 <!DOCTYPE html>
@@ -62,7 +58,6 @@ $commentCount = count($comments);
     <p class="creator">By: <?= htmlspecialchars($project['name']) ?></p>
     <p class="description"><?= nl2br(htmlspecialchars($project['description'])) ?></p>
 
-    <!-- New: GitHub URL -->
     <?php if (!empty($project['github_url'])): ?>
       <div class="project-link">
         <h3>Project GitHub Repository</h3>
@@ -70,7 +65,6 @@ $commentCount = count($comments);
       </div>
     <?php endif; ?>
 
-    <!-- New: Project Document -->
     <?php if (!empty($project['file_path'])): ?>
       <div class="project-document">
         <h3>Project Document</h3>
@@ -90,7 +84,6 @@ $commentCount = count($comments);
       <?php if (isset($_SESSION['user_id'])): ?>
         <button id="openContactBtn" class="btn">📧 Contact Creator</button>
 
-        <!-- Popup Modal -->
         <div id="contactModal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="contactModalTitle" aria-modal="true">
           <div class="modal-content">
             <span class="close-btn" id="closeContactBtn" role="button" aria-label="Close contact form">&times;</span>

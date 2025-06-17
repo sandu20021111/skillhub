@@ -2,7 +2,6 @@
 // api/upload-file.php
 header('Content-Type: application/json');
 
-// Make sure a file was uploaded
 if (!isset($_FILES['file']) || $_FILES['file']['error'] !== UPLOAD_ERR_OK) {
     echo json_encode(['success' => false, 'message' => 'No file uploaded or upload error']);
     exit;

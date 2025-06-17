@@ -8,7 +8,6 @@ if (!isset($_SESSION['user_id'])) {
 include '../includes/db.php';
 $user_id = $_SESSION['user_id'];
 
-// Handle deletion
 if (isset($_GET['delete'])) {
     $del_id = intval($_GET['delete']);
     $stmt = $conn->prepare("DELETE FROM projects WHERE id = ? AND user_id = ?");
@@ -18,7 +17,6 @@ if (isset($_GET['delete'])) {
     exit;
 }
 
-// Fetch user's projects
 $stmt = $conn->prepare("SELECT * FROM projects WHERE user_id = ? ORDER BY created_at DESC");
 $stmt->bind_param("i", $user_id);
 $stmt->execute();
@@ -56,7 +54,6 @@ $projects = $stmt->get_result();
     <?php endif; ?>
 </div>
 
-<!-- Popup Modal -->
 <div id="popup" class="popup">
     <div class="popup-content">
         <span class="close" onclick="closePopup()">&times;</span>
@@ -70,7 +67,7 @@ $projects = $stmt->get_result();
 
 <script>
         function goToHome() {
-            window.location.href = "/student-showcase/profile/dashboard.php"; // Change path if your homepage is different
+            window.location.href = "/student-showcase/profile/dashboard.php";
         }
     </script>
 

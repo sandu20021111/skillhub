@@ -29,8 +29,6 @@
     <header>
         <h1>Our Team</h1>
         <div class="container">
-
-            <!-- Team Member 1 -->
             <div class="card">
                 <img class="one" src="assets/img/Hansani.jpg" alt="">
                 <h3>Hansani Madurangi</h3>
@@ -43,10 +41,9 @@
                 </div>
             </div>
 
-            <!-- Team Member 2 -->
             <div class="card">
                 <img class="one" src="assets/img/Vihara.jpg" alt="">
-                <h3>Saduni Vihara</h3>
+                <h3>Sanduni Vihara</h3>
                 <h4>Undergraduate at CINEC</h4>
                 <div class="icon">
                     <a href="https://www.linkedin.com/in/sanduni-vihara-56990528b" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
@@ -56,7 +53,6 @@
                 </div>
             </div>
 
-            <!-- Team Member 3 -->
             <div class="card">
                 <img class="one" src="assets/img/Nethma.jpg" alt="">
                 <h3>Nethma Charuni</h3>
@@ -69,7 +65,6 @@
                 </div>
             </div>
 
-            <!-- Team Member 4 -->
             <div class="card">
                 <img class="one" src="assets/img/malindi.jpg" alt="">
                 <h3>Malindi Ruprabha</h3>
@@ -82,7 +77,6 @@
                 </div>
             </div>
 
-            <!-- Team Member 5 -->
             <div class="card">
                 <img class="one" src="assets/img/Rashan.jpg" alt="">
                 <h3>Rashan Chanuka</h3>
@@ -98,11 +92,9 @@
         </div>
     </header>
 
-    <!-- Ionicons -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
-    <!-- Include Footer -->
     <?php include 'includes/footer.php'; ?>
 
 </body>

@@ -67,23 +67,19 @@ nav a {
     letter-spacing: 0.1rem;
     transition: color 0.2s ease;
     text-decoration: none;
-    color: #e0e0e0; /* Light text for dark background */
+    color: #e0e0e0;
     z-index: 999;
 }
 
 nav a:hover {
-    color: #0ef; /* Neon blue on hover */
+    color: #0ef; 
 }
 
 
-
-
-
-/* SIGNIN and PROFILE buttons with neon style */
 .btn-signing,
 .btn-profile {
-    background-color: #0ef; /* Neon blue */
-    color: #081b29; /* Dark text on neon background */
+    background-color: #0ef; 
+    color: #081b29; 
     padding: 0.8rem 2rem;
     border-radius: 50px;
     border: none;
@@ -95,15 +91,14 @@ nav a:hover {
     z-index: 999;
 }
 
-/* Shared hover effect */
 .btn-signing:hover,
 .btn-profile:hover {
-    background-color: #0056b3; /* Darker blue */
+    background-color: #0056b3; 
     color: #fff;
     box-shadow: 0 8px 20px rgba(0, 86, 179, 0.6);
 }
-/*index.css
-/* Main Content */
+/*index.css*/
+
 .content {
     padding: 4rem 2rem;
     text-align: left; 
@@ -114,6 +109,7 @@ nav a:hover {
     margin-bottom: 1rem;
     margin-right: 0.5rem; 
     text-align: left;
+    margin-left:5px;
 }
 
 .tag {
@@ -125,28 +121,26 @@ nav a:hover {
     color: #081b29;
     font-weight: 600;
     display: inline-block;
+    margin-left:5px;
 }
 
 .tag-section {
     position: fixed;
     bottom: 2rem;
-    left: 2rem;
+    left: 5rem;
     z-index: 100;
 }
 
 
-
-/* Headline */
 h1 {
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
     color: #0ef;
     text-align: left;         
-    margin-left: 2rem;        
+    margin-left: 3rem;        
 }
 
-/* Description */
 .description {
     font-size: 1.1rem;
     max-width: 700px;
@@ -156,10 +150,9 @@ h1 {
 }
 
 
-/* Buttons */
 .buttons {
     display: flex;
-    justify-content: center;
+    margin-left:10px;
     gap: 1.5rem;
     flex-wrap: wrap;
 }
@@ -191,18 +184,89 @@ h1 {
     color: #fff;
 }
 
-/* Spline 3D Viewer */
+
 .robot-3d {
-    width: 100%;
+    width: 90%;
     max-width: 800px;
     height: 600px;
-    margin: 3em 0 0 50px;
-    display: block; /* block-level so it respects margin */
+    margin: 3em 0 0 30px;
+    display: block; 
     text-align: left;
      position: absolute;
     top: 0;
-    right: -23%;
+    right: -0%;
 }
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 4rem 3rem;
+    gap: 2rem;
+}
+
+.robot-2d {
+    flex: 1;
+    min-width: 500px;
+    max-width: 700px;
+    height: 550px;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 280px;
+    max-width: 600px;
+    text-align: left;
+    color: #e0e0e0;
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0ef;
+    margin-bottom: 1rem;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    color: #ccc;
+}
+
+.btn-about {
+    display: inline-block;
+    padding: 0.8rem 1.8rem;
+    background: #0ef;
+    color: black;
+    font-weight: 600;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.btn-about:hover {
+    background: #00c6c6;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text, .robot-2d {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+}
+
 
 
 

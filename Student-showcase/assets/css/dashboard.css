@@ -1,14 +1,13 @@
-/* Reset some defaults */
 * {
     box-sizing: border-box;
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #081b29; /* Dark background */
+    background: #081b29; 
     margin: 0;
     padding: 40px 20px;
-    color: #e0e0e0; /* Light text color for contrast */
+    color: #e0e0e0; 
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -18,19 +17,19 @@ body {
 .dashboard-container {
     max-width: 720px;
     width: 100%;
-    background: #1a2c3a; /* Slightly lighter dark background for the container */
+    background: #1a2c3a; 
     padding: 40px 35px;
     border-radius: 20px;
     box-shadow:
-        0 10px 30px rgba(0, 238, 255, 0.4), /* Blue shadow */
-        0 6px 20px rgba(0, 238, 255, 0.3); /* Another blue shadow, adjusted opacity */
+        0 10px 30px rgba(0, 238, 255, 0.4), 
+        0 6px 20px rgba(0, 238, 255, 0.3); 
     transition: box-shadow 0.3s ease;
 }
 
 .dashboard-container:hover {
     box-shadow:
-        0 15px 45px rgba(0, 238, 255, 0.6), /* Enhanced blue shadow on hover */
-        0 10px 30px rgba(0, 238, 255, 0.4); /* Another enhanced blue shadow on hover */
+        0 15px 45px rgba(0, 238, 255, 0.6), 
+        0 10px 30px rgba(0, 238, 255, 0.4); 
 }
 
 h1 {
@@ -39,7 +38,7 @@ h1 {
     font-weight: 700;
     font-size: 2.4rem;
     letter-spacing: 1px;
-    color: #0ef; /* Blue accent for heading */
+    color: #0ef; 
 }
 
 .profile-card {
@@ -54,9 +53,9 @@ h1 {
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    border: 4px solid #0ef; /* Blue border for profile image */
+    border: 4px solid #0ef; 
     object-fit: cover;
-    box-shadow: 0 4px 15px rgba(0, 238, 255, 0.3); /* Blue shadow for image */
+    box-shadow: 0 4px 15px rgba(0, 238, 255, 0.3); 
     transition: transform 0.3s ease;
 }
 
@@ -71,14 +70,14 @@ h1 {
 .profile-card .info h2 {
     margin: 0 0 8px;
     font-size: 1.8rem;
-    color: #0ef; /* Blue accent for profile name */
+    color: #0ef; 
     font-weight: 700;
 }
 
 .profile-card .info p {
     margin: 4px 0;
     font-size: 1rem;
-    color: #e0e0e0; /* Light text color for profile info */
+    color: #e0e0e0; 
     line-height: 1.4;
 }
 
@@ -86,13 +85,13 @@ h1 {
     display: inline-block;
     padding: 12px 25px;
     margin-right: 15px;
-    background: #0ef; /* Blue button background */
-    color: #081b29; /* Dark text on blue button */
+    background: #0ef; 
+    color: #081b29; 
     text-decoration: none;
     font-weight: 600;
     font-size: 1rem;
     border-radius: 8px;
-    box-shadow: 0 6px 15px rgba(0, 238, 255, 0.4); /* Blue shadow for button */
+    box-shadow: 0 6px 15px rgba(0, 238, 255, 0.4); 
     transition: background 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
     border: none;
@@ -100,13 +99,13 @@ h1 {
 }
 
 .btn:hover {
-    background: #0056b3; /* Darker blue on hover */
-    box-shadow: 0 8px 20px rgba(0, 86, 179, 0.6); /* Darker blue shadow on hover */
-    color: #fff; /* White text on darker blue hover */
+    background: #0056b3; 
+    box-shadow: 0 8px 20px rgba(0, 86, 179, 0.6); 
+    color: #fff; 
 }
 
 .btn.logout {
-    background: #f56565; /* Keeping a distinct red for logout, but you could change it to a muted blue if preferred */
+    background: #f56565; 
     box-shadow: 0 6px 15px rgba(245, 101, 101, 0.4);
 }
 
@@ -131,7 +130,6 @@ h1 {
 }
 
 
-/* Responsive */
 @media (max-width: 480px) {
     .profile-card {
         flex-direction: column;
