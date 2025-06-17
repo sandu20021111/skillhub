@@ -11,6 +11,7 @@
 </head>
 
 <body>
+
     <?php include 'includes/header.php'; ?>
 
     <img class="image-gradient" src="gradient.png" alt="">
@@ -43,7 +44,7 @@
            data-aos-offset="0" 
            data-aos-duration="2500" 
            class="description">
-            Discover, share, and celebrate the creativity of students from all disciplines. Upload your academic projects, explore innovative ideas, and connect with fellow students and educators around the world.
+           🔹 Discover, share, and celebrate the creativity of students from all disciplines.<br> 🔹 Upload your academic projects, explore innovative ideas, and connect with fellow students and educators around the world.
         </p>
 
         <!-- Buttons -->
@@ -68,15 +69,27 @@
                    url="https://prod.spline.design/2ksZhN5snA8Ci1mB/scene.splinecode">
     </spline-viewer>
 
-     <?php include 'includes/footer.php'; ?>
+        <!-- 2D Robot Viewer -->
+    <spline-viewer data-aos="fade-zoom-in"
+                   data-aos-easing="ease-in-back"
+                   data-aos-delay="300"
+                   data-aos-offset="0" 
+                   data-aos-duration="3000" 
+                   class="robot-2d" 
+                   url="https://prod.spline.design/ZzM6Hoobecv9iK8N/scene.splinecode">
+    </spline-viewer>
+
+  
+    <?php include 'includes/footer.php'; ?>
+
     <!-- JS Scripts -->
     <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.2/build/spline-viewer.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.7/build/spline-viewer.js"></script>
+
     <script>
       AOS.init();
     </script>
 
 </body>
 </html>
-
-

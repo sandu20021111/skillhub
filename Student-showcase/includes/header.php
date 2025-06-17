@@ -13,7 +13,9 @@
 
 <body>
     <header>
-        <h1 data-aos="fade-down" data-aos-duration="1500" class="logo">MC</h1>
+        <h1 data-aos="fade-down" data-aos-duration="1500" class="logo">🌐 Acadex</h1>
+
+
 
         <nav>
             <a data-aos="fade-down" data-aos-duration="3000" href="/student-showcase/index.php">HOME</a>
