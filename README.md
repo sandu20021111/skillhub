@@ -1,7 +1,7 @@
 # 🎓 Student Project Showcase Website
 
 A PHP & MySQL-based platform where students can upload, view, and interact with academic projects.  
-Includes features like **likes**, **comments**, and a responsive **contact page** to connect with project owners.
+Includes features like **likes**, **comments**, and a responsive **creator contact page** to connect with project owners.
 
 ---
 
@@ -39,7 +39,7 @@ Includes features like **likes**, **comments**, and a responsive **contact page*
 
 ---
 
-##📂 How It Works
+## 📂 How It Works
 - Students create accounts and upload projects.
 - Visitors can browse, like, and comment on projects.
 - Creator contact form allows sending direct masseges for author of the project.
